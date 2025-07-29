@@ -3,7 +3,8 @@
 repo for my ML projects
 
 Applied Machine Learning Projects (First Year)
-Welcome! This repository contains all 8 of my end-to-end machine learning projects that I completed after my first year at IIIT during the summer break. These projects cover both supervised and unsupervised learning using real-world datasets from Kaggle, and are focused on solidifying my understanding of core ML concepts.
+
+Welcome! This repository contains all 8 of my end-to-end machine learning projects that I completed after my first year at IIIT Kottayam during the summer break. These projects cover both supervised and unsupervised learning using real-world datasets from Kaggle, and are focused on solidifying my understanding of core ML concepts.
 
 Summary :
 
