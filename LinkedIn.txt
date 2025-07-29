@@ -1,0 +1,34 @@
+Wrapped Up My First Year + 8 Machine Learning Projects!
+
+As I just completed my freshman year at IIIT Kottayam, I spent my summer break diving deep into applied machine learning — 
+and I’m thrilled to share that I’ve completed 8 end-to-end projects!
+Now stepping into my sophomore year, I’m more motivated than ever to keep learning and building.
+
+📂 Supervised Learning Projects:
+✅ Classification (3 real-world projects)
+✅ Regression (3 real-world projects)
+
+📂 Unsupervised Learning Projects:
+✅ Clustering (2 Projects)
+
+Throughout this process, I’ve learned all the major concepts of feature engineering (missing values, encoding, scaling, outliers, etc.) and gained a solid understanding 
+of the working of the most frequently used and important ML algorithms like 
+Logistic Regression, Linear Regression, SVM, Decision Trees, Random Forest, Ensemble Learning, XGBoost, DBSCAN and more.
+
+I used real-world datasets from Kaggle, handled missing values, outliers, scaling, and feature engineering — and applied models like 
+Logistic Regression, SVM, Random Forest, XGBoost, and DBSCAN.
+
+To fine-tune performance, I explored Optuna for hyperparameter tuning and performance metrics for model evaluation.
+
+I’ll be sharing screenshots from my hand-typed files along with this post to give a glimpse of the actual work I’ve done.
+but if anyone’s interested in checking them out, feel free to let me know, I'd be glad to connect with people who share the same mindset and curiosity!
+
+Tech Stack:
+Python | Pandas | NumPy | Scikit-learn | Matplotlib | Seaborn | Optuna | XGBoost
+
+🔗 You can check out the projects on my GitHub:
+👉 [your GitHub link here]
+
+
+#MachineLearning #DeepLearning #DataScience #MLProjects #Kaggle #Classification #Regression #Clustering #Python #XGBoost #Optuna #IIIT #OpenToWork 
+#StudentProjects #FirstYearToSecondYear

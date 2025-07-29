@@ -1,0 +1,213 @@
+===========================================================================================
+Regression Projects
+===========================================================================================
+
+===========================================================================================
+====================================== r_project 1 : ======================================
+===========================================================================================
+
+Project Title:
+Air Quality Index Prediction Using Tree-Based Regression
+
+Summary:
+This project focuses on predicting the Air Quality Index (AQI) using various air pollutant levels. We used a real-world dataset from Indian cities containing daily measurements of pollutants like PM2.5, PM10, NO2, CO, SO2, etc.
+
+Tools & Techniques:
+Models: Random Forest & XGBoost Regressors
+Tuning: Optuna for hyperparameter optimization
+Preprocessing: KNN imputer (missing values), MinMaxScaler (scaling), outlier handling via visual inspection
+Validation: Cross-validation (R², MAE)
+Visualization: Matplotlib, Seaborn, Optuna plots
+
+===========================================================================================
+====================================== r_project 2 : ======================================
+===========================================================================================
+
+Concrete Strength Prediction (Regression Project)
+Built a machine learning model to predict concrete compressive strength using real-world data from Kaggle. The dataset contains 8 numerical features like cement, slag, water, and age, with the target being strength in MPa.
+
+Tools & Techniques:
+Models: Random Forest, XGBoost
+Tuning: Optuna for hyperparameter optimization
+Preprocessing: KNN Imputer, MinMax Scaling, outlier detection
+Metrics: MAE, R²
+
+Outcome:
+Achieved high accuracy in strength prediction. XGBoost slightly outperformed Random Forest after tuning. Visualizations from Optuna helped understand model performance and parameter importance.
+
+===========================================================================================
+====================================== r_project 3 : ======================================
+===========================================================================================
+
+Dataset Summary:
+Name: Medical Cost Personal Dataset
+Target Variable: charges (annual medical insurance cost in USD)
+
+Features:
+Numerical: age, bmi, children
+Categorical: sex, smoker, region
+Project Summary:
+
+Goal: Predict a person's medical insurance cost using their personal and demographic info.
+
+Models Used:
+Random Forest Regressor
+XGBoost Regressor
+
+Techniques Applied:
+One-Hot Encoding for categorical data
+MinMax Scaling for numerical features
+Train/Test Split (70/30)
+Cross-validation (5-fold)
+Hyperparameter tuning using Optuna
+Model evaluation using MAE and R² Score
+Visual analysis of Optuna tuning using importance and optimization plots
+
+
+
+===========================================================================================
+Classification Projects
+===========================================================================================
+
+===========================================================================================
+====================================== c_project 1 : ======================================
+===========================================================================================
+
+Project Title:
+Heart Disease Classification Using Tree-Based & SVM Models
+
+Summary:
+This project predicts the risk of heart disease based on clinical features such as age, cholesterol, resting BP, etc., using a real-world classification dataset.
+
+Tools & Techniques:
+Models: SVM, Random Forest
+Tuning: Optuna for hyperparameter optimization
+Preprocessing: StandardScaler (scaling)
+Validation: Cross-validation (Accuracy, F1-score, confusion_matrix)
+Visualization: Optuna plots
+
+===========================================================================================
+====================================== c_project 2 : ======================================
+===========================================================================================
+
+project name : Cervical Cancer Risk Prediction (Classification)
+Summary:
+Built a classification model to predict the risk of cervical cancer using medical data. Focused on clean preprocessing, model building, and hyperparameter tuning for better accuracy.
+
+Tools & Libraries:
+Python, Pandas, NumPy, Scikit-learn, Optuna, Matplotlib, Seaborn
+
+Key Steps:
+Handled missing values (KNNImputer)
+Visualized outliers (boxplots)
+Scaled features (MinMaxScaler)
+Trained models: Logistic Regression, Random Forest, SVM
+Used Optuna for hyperparameter tuning (SVM & RF)
+Evaluated models using accuracy, confusion matrix, classification report
+
+Outcome:
+Achieved improved model performance after tuning. Demonstrated how ML + Optuna can aid early detection of cervical cancer.
+
+===========================================================================================
+====================================== c_project 3 : ======================================
+===========================================================================================
+
+Pulsar Star Classification Using Binary Classification Models & Optuna Optimization
+
+Aim:
+To build and evaluate machine learning models that classify whether an object is a pulsar star or not, based on features derived from radio signal data.
+
+Summary:
+This project uses a real-world dataset from Kaggle that contains statistical features extracted from pulsar candidates. The objective is to perform binary classification (1 = pulsar star, 0 = not a pulsar) using models like Logistic Regression, SVM, Random Forest. Each model is tuned using Optuna to find the best hyperparameters. The performance is evaluated using accuracy and confusion matrices.
+
+Tools & Techniques Used:
+Programming Language: Python
+
+Libraries:
+pandas, numpy for data manipulation
+matplotlib, seaborn for data visualization
+scikit-learn for preprocessing, models, metrics
+Optuna for hyperparameter tuning
+Optuna.visualization for optimization insights
+
+Techniques:
+Binary classification
+Data preprocessing (MinMax scaling, outlier handling, missing value check)
+Hyperparameter tuning via Optuna
+Model evaluation using accuracy score and confusion matrix
+Visualization of optimization history and parameter importance
+
+
+
+===========================================================================================
+Clustering Projects
+===========================================================================================
+
+===========================================================================================
+====================================== cl_project 1 : =====================================
+===========================================================================================
+
+Project Title:
+DBSCAN Clustering with Outliers on 2D Synthetic Data
+
+Objective:
+To demonstrate how DBSCAN (Density-Based Spatial Clustering of Applications with Noise) can effectively identify clusters and noise points (outliers) in 2D data using synthetic data with injected anomalies.
+
+Summary:
+This project showcases unsupervised clustering using the DBSCAN algorithm on synthetic 2D data generated via make_blobs. Outliers are manually injected into the dataset to simulate real-world noisy conditions. The data is scaled before applying DBSCAN, which then identifies dense clusters and marks sparse regions as noise. Visualization before and after clustering clearly illustrates the effectiveness of DBSCAN in separating meaningful groups and handling outliers.
+
+Tools and Libraries Used:
+Python
+Pandas – for data manipulation
+NumPy – for numerical operations
+Matplotlib – for data visualization
+Scikit-learn
+make_blobs – to generate clustered data
+StandardScaler – for feature scaling
+DBSCAN – density-based clustering algorithm
+
+Techniques Used:
+Synthetic Data Generation using make_blobs
+Outlier Injection with uniform random values
+Feature Scaling using StandardScaler to normalize input space
+DBSCAN Clustering for unsupervised density-based classification
+Data Visualization before and after clustering to interpret results
+
+===========================================================================================
+====================================== cl_project 2 : =====================================
+===========================================================================================
+
+This project demonstrates the application of the DBSCAN clustering algorithm to geometrically complex, nonlinear 2D data. The dataset includes synthetically generated points representing multiple parabolas and circles. The goal is to explore DBSCAN's ability to detect clusters of arbitrary shape and to distinguish outliers ("noise") in the dataset.
+
+Tools & Technologies Used
+Programming Language: Python
+
+Libraries:
+NumPy: For numerical operations and synthetic data generation
+Pandas: (optional, for tabular handling if needed)
+Matplotlib: For visualizing the clusters in 2D
+scikit-learn:
+StandardScaler: For feature normalization
+DBSCAN: Density-Based Spatial Clustering of Applications with Noise
+
+Techniques Used
+Synthetic Data Generation:
+Points sampled from mathematical equations of parabolas and circles
+
+Feature Scaling:
+Applied StandardScaler to normalize feature ranges before clustering
+
+Clustering Algorithm:
+Used DBSCAN to detect arbitrarily shaped clusters and outliers
+
+Parameters:
+eps=0.3: Neighborhood size
+min_samples=5: Minimum number of points to form a cluster
+
+2D Visualization:
+Colored scatterplot to visualize clusters and noise
+Legends to label each cluster (e.g., "Cluster 0", "Noise")
+
+########## important Points ###########
+- in classification projects ive not used XGBoost because it was giving me errors that i nor any opensource was able to debug
+- in some projects ive set optuna trails to a lesser value as it was taking a long time to compute
